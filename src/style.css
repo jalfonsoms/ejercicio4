@@ -54,6 +54,7 @@ body {
 }
 
 .flex-item {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -61,29 +62,42 @@ body {
     border: 2px solid black;
     margin: 5px;
     background-color: rgba(80, 163, 251, 0.38);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .flex-item img{
     max-width: 100%;
-    height: auto;
 }
 
 .flex-item:hover img {
     transform: scale(1.1);
+    transition: 0.5s ease;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
-.flex-item .descripcion {
+.overlay {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    transform: scale(1.1);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     opacity: 0;
-    align-items: center;
-    transition: opacity 0.3s ease;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-.flex-item:hover .descripcion {
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.flex-item:hover .overlay {
     opacity: 1;
 }
 
