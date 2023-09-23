@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    border: solid 2px;
+}
+
+.main .text_main {
+    display: flex;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.contenedor {
+    max-width: 800px;
+    padding: 0px 20px 10px 20px;
+}
+
+.contenedor span {
+    padding: 20px;
+    font-size: 33px;
+}
+
+/*--------------HEADER-----------------*/
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(175, 223, 223);
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+/*--------------HEADER-----------------*/
+
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 5px;
+}
+
+.flex-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    background-color: rgba(251, 80, 80, 0.17);
+    flex-wrap: wrap;
+    border: solid 1px;
+    flex-direction: column;
+    border-radius: 40px;
+}
+
+.flex-container {
+    display: grid;
+    flex: 2;
+    justify-content: center;
+    border: solid 1px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.flex-container section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegador {
+    margin: 10px;
+}
+
+.navegador span {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgba(80, 163, 251, 0.38);
+    flex-direction: column;
+}
+
+.flex-item {
+    flex: 1;
+    position: relative;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: rgba(80, 163, 251, 0.38);
+}
+
+.flex-item img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.flex-item:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    border-radius: 20px;
+}
+
+.fila1, .fila2, .fila3 {
+    display: flex;
+    align-items: stretch;
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.flex-item:hover .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/*--------------FOOTER-----------------*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+/*--------------FOOTER-----------------*/
