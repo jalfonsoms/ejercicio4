@@ -64,7 +64,6 @@ body {
     flex: 2;
     justify-content: center;
     flex-direction: column;
-    align-items: stretch;
 }
 
 .flex-container section {
@@ -79,13 +78,13 @@ body {
 .navegador span {
     display: flex;
     text-align: center;
+    flex-direction: column;
     justify-content: space-between;
-    font-size: 15px;
-    margin: 10px;
+    font-size: 3vw; /* viewport width */
+    margin: 1vw;
     border: solid 1px;
     border-radius: 10px;
     background-color: rgba(80, 163, 251, 0.38);
-    flex-direction: column;
 }
 
 .navegador a {
@@ -102,7 +101,7 @@ body {
     flex: 1;
     position: relative;
     border: 2px solid black;
-    margin: 2px;
+    margin: 1vw;
     background-color: rgba(80, 163, 251, 0.38);
 }
 
