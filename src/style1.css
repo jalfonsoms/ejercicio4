@@ -93,6 +93,7 @@ body {
 }
 
 .flex-item {
+    width: 100%;
     display: flex;
     flex: 1;
     position: relative;

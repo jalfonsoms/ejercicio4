@@ -11,19 +11,14 @@ body {
 
 .main .text_main {
     display: flex;
-    padding-top: 20px;
-    font-size: 20px;
-    margin-left: 20px;
+    padding-top: 1vw;
+    font-size: 5vw;
+    margin-left: 3vw;
 }
 
 .contenedor {
-    max-width: 800px;
-    padding: 0px 20px 10px 20px;
-}
-
-.contenedor span {
-    padding: 20px;
-    font-size: 33px;
+    max-width: 100%;
+    padding: 0vw 1vw 1vw 1vw;
 }
 
 /*--------------HEADER-----------------*/
@@ -32,11 +27,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(175, 223, 223);
-    padding: 10px;
+    font-size: 6vw;
+    padding: 20px;
     border: solid 1px;
-    border-radius: 20px;
+    border-radius: 3vw;
 }
-
 /*--------------HEADER-----------------*/
 
 
@@ -113,6 +108,7 @@ body {
     justify-content: center;
     border: solid 1px;
     border-radius: 20px;
+    font-size: 6vw;
+    padding: 3vw;
 }
-
 /*--------------FOOTER-----------------*/
