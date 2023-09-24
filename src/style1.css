@@ -11,13 +11,13 @@ body {
 
 .main .text_main {
     display: flex;
-    padding-top: 20px;
+    padding-top: 1vw;
     font-size: 5vw;
-    margin-left: 20px;
+    margin-left: 3vw;
 }
 
 .contenedor {
-    max-width: 80vw;
+    max-width: 100%;
     padding: 0vw 1vw 1vw 1vw;
 }
 
