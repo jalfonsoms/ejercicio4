@@ -156,6 +156,7 @@ body {
     display: flex;
     color: white;
     font-size: 2vw;
+    padding: 3vw;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
