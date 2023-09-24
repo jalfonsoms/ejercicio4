@@ -88,17 +88,27 @@ body {
     flex-direction: column;
 }
 
+.navegador a {
+    text-decoration: none;
+}
+
+.navegador span:hover {
+    color: white;
+    background-color: #555;
+}
+
 .flex-item {
+    display: flex;
     flex: 1;
     position: relative;
     border: 2px solid black;
-    margin: 5px;
+    margin: 2px;
     background-color: rgba(80, 163, 251, 0.38);
 }
 
 .flex-item img {
-    max-width: 100%;
-    transition: transform 0.5s ease;
+    display: flex;
+    width: 100%;
 }
 
 .flex-item:hover img {
@@ -109,7 +119,14 @@ body {
 
 .fila1, .fila2, .fila3 {
     display: flex;
-    align-items: stretch;
+}
+
+.item1 {
+    flex: 2;
+}
+
+.item2 {
+    flex: 3;
 }
 
 .overlay {
@@ -125,9 +142,12 @@ body {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text {
+    display: flex;
     color: white;
     font-size: 20px;
     text-align: center;
