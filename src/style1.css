@@ -60,7 +60,7 @@ body {
 }
 
 .flex-container {
-    /*display: flex;*/
+    display: flex;
     flex: 2;
     justify-content: center;
     flex-direction: column;
