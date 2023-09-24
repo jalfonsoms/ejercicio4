@@ -36,7 +36,7 @@ body {
 
 .cuerpo {
     display: flex;
-    margin: 10px;
+    margin: 2vw;
     flex-wrap: wrap;
     max-width: 100%;
 }
