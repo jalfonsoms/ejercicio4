@@ -41,6 +41,7 @@ body {
 
 .cuerpo {
     display: flex;
+    margin: 10px;
     flex-wrap: wrap;
     max-width: 100%;
 }
@@ -49,7 +50,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
-    margin: 10px;
+    margin-right: 10px;
     justify-content: center;
     background-color: rgba(251, 80, 80, 0.17);
     flex-wrap: wrap;
@@ -59,9 +60,8 @@ body {
 }
 
 .flex-container {
-    display: flex;
+    /*display: flex;*/
     flex: 2;
-    margin: 10px;
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
